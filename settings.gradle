@@ -1,4 +1,4 @@
-rootProject.name = "AmazicAdsLibrary"
+rootProject.name = "AdmobLib"
 include ':app'
 include ':ads'
 include ':sdk'
