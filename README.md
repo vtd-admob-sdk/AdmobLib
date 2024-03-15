@@ -1,17 +1,19 @@
 <h1>Document admob sdk</h1>
 <h3><br>Adding the library to your project: Add the following in your root build.gradle at the end of repositories:</br></h3>
 <pre>
-  allprojects {
-    repositories {
-        ...
-        maven { url 'https://jitpack.io' }	    
-    }
+  dependencyResolutionManagement {
+		repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+		repositories {
+			mavenCentral()
+			maven { url 'https://jitpack.io' }
+		}
+	}
 }
 </pre>
 <h5>Implement library in your app level build.gradle:</h5>
 <pre>
  dependencies {
-    implementation 'com.github.quangchienictu:AmazicAdsLibrary:2.2.6'
+    implementation 'com.github.vtd-admob-sdk:AdmobLib:0.0.0'
     implementation 'com.google.android.gms:play-services-ads:22.1.0'
     implementation 'com.facebook.shimmer:shimmer:0.5.0'
     //multidex
@@ -28,29 +30,88 @@ multiDexEnabled true
             android:name="com.google.android.gms.ads.APPLICATION_ID"
             android:value="ca-app-pub-3940256099942544~3347511713" />
 </pre>
-<h3><li>Init aplication</br></h3>
+<h3><br>Init aplication</br></h3>
 <pre> < application
    android:name=".MyApplication"
    .
    .
    .../></pre>
 <pre>
-    public class MyApplication extends AsdApplication {
+  public class MyApplication extends AdsApplication {
+    public static String PRODUCT_ID_MONTH = "android.test.purchased";
     @Override
-    public boolean enableAdsResume() {
+    public void onCreate() {
+        super.onCreate();
+        AppOpenManager.getInstance().disableAppResumeWithActivity(Splash.class);
+
+        //init Appsflyer
+        //AppsflyerEvent.getInstance().init(this, "1233", true);
+    }
+
+    @NonNull
+    @Override
+    public String getAppTokenAdjust() {
+        return "null";
+    }
+
+    @NonNull
+    @Override
+    public String getFacebookID() {
+        return "null";
+    }
+
+    @Override
+    public Boolean buildDebug() {
         return true;
     }
 
+    // set id app open resume
     @Override
-    public List<String> getListTestDeviceId() {
-        return null;
+    protected String initAppOpenResume() {
+        return "ca-app-pub-3940256099942544/9257395921";
     }
 
+    // yêu cầu dùng Adjust thì set = true không dùng thì set = false
     @Override
-    public String getResumeAdId() {
-        return "resume_id";
+    protected boolean isSetUpAdjust() {
+        return true;
     }
 }
+
+</pre>
+
+<h3><br>init Ump (Use in Splash Activity)</br></h3>
+<pre>
+AdsConsentManager adsConsentManager = new AdsConsentManager(this);
+        adsConsentManager.requestUMP(!AdsConsentManager.getConsentResult(Splash.this),result -> {
+                // accept ump
+                if (result){
+                    //init sdk
+                    Admob.getInstance().initAdmod(Splash.this);
+                    //funtion use to show ads splash
+                    initShowAdsSplash();
+                    // trường hợp project tích hợp với remote config thì cần init remote config sau đó mới initShowAdsSplash()
+                }else {
+                    startActivity(new Intent(Splash.this, MainActivity.class));
+                    finish();
+                }
+            
+        });
+  private void initShowAdsSplash(){
+         adsSplash = AdsSplash.init(true, true, "30_70");
+        List<String> idsOpen = new ArrayList<String>();
+        idsOpen.add("ca-app-pub-3940256099942544/9257395921");
+        List<String> idsInter = new ArrayList<String>();
+        idsInter.add("ca-app-pub-3940256099942544/1033173712");
+        adsSplash.showAdsSplash(Splash.this, idsOpen, idsInter, adCallback, interCallback);
+    }
+
+   @Override
+    protected void onResume() {
+     if (adsSplash != null) {
+            adsSplash.onCheckShowSplashWhenFail(this, adCallback, mInterCallback);
+        }
+    }
 
 </pre>
 <h2>- BannerAds</h2>
@@ -67,7 +128,15 @@ multiDexEnabled true
  </pre>
 <h4>Load in ativity</h4>
 <pre>
+    //load banner không reload lại khi chuyển màn
     Admob.getInstance().loadBanner(this,"bannerID");
+    //load banner có reload khi chuyển màn
+      BannerBuilder bannerBuilder = new BannerBuilder(this, this)
+                    .initId(List<String> ids);
+            bannerManager = new BannerManager(bannerBuilder);
+    // gọi hàm này khi có sự kiện chuyển màn (startActivity)
+    bannerManager.setReloadAds();
+
 </pre>
 <h4>Load in fragment</h4>
 <pre>
@@ -77,45 +146,36 @@ Admob.getInstance().loadBannerFragment( mActivity, "bannerID",  rootView)
 </pre>
 </div>
 <h2>IntertitialAds</h2>
-<div class="content">
-  <h3>- Inter Splash</h3>
-  <pre>
-      public InterCallback interCallback;
-      interCallback = new InterCallback(){
-            @Override
-            public void onNextAction() {
-                super.onNextAction();
-                startActivity(new Intent(Splash.this,MainActivity.class));
-                finish();
-            }
-      };
-      Admob.getInstance().loadSplashInterAds2(this,"interstitial_id",3000,interCallback);
 
-     onresume
-     Admob.getInstance().onCheckShowSplashWhenFail(this,interCallback,1000);
-
-  </pre>
 <h3>- InterstitialAds</h3>
   <h4>Create and load interstitialAds</h4>
 <pre>
   private InterstitialAd mInterstitialAd;
 
-Admob.getInstance().loadInterAds(this, "interstitial_id" new InterCallback() {
-@Override
-public void onInterstitialLoad(InterstitialAd interstitialAd) {
-super.onInterstitialLoad(interstitialAd);
-mInterstitialAd = interstitialAd;
-}
-});
+ Admob.getInstance().loadInterAdsFloor(context, ids, object : InterCallback() {
+                override fun onAdLoadSuccess(interstitialAd: InterstitialAd?) {
+                    super.onAdLoadSuccess(interstitialAd)
+                    mInterstitial = interstitialAd
+                }
+            })
 </pre>
 <h4>Show interstitialAds</h4>
 <pre>
-   Admob.getInstance().showInterAds(MainActivity.this, mInterstitialAd, new InterCallback() {
-                    @Override
-                    public void onNextAction() {
-                        startActivity(new Intent(MainActivity.this,MainActivity3.class));
-                        // Create and load interstitialAds (when not finish activity ) 
-                    }});
+   Admob.getInstance().setOpenActivityAfterShowInterAds(false)
+            Admob.getInstance().showInterAds(context, mInterstitial, object : InterCallback() {
+                override fun onNextAction() {
+                    super.onNextAction()
+                    mInterstitial = null;
+                    Admob.getInstance().setOpenActivityAfterShowInterAds(true)
+                    action()
+                }
+
+                override fun onAdClosedByUser() {
+                    super.onAdClosedByUser()
+                    Admob.getInstance().setOpenActivityAfterShowInterAds(true)
+                    action()
+                }
+            })
 </pre>
 </div>
 
@@ -125,61 +185,30 @@ mInterstitialAd = interstitialAd;
 <pre>  Admob.getInstance().initRewardAds(this,reward_id);</pre>
 <h4>Show RewardAds</h4>
 <pre>
-  Admob.getInstance().showRewardAds(MainActivity.this,new RewardCallback(){
-                    @Override
-                    public void onEarnedReward(RewardItem rewardItem) {
-                        // code here
-                    }
+    var isReward = false
+ Admob.getInstance().showRewardAds(activity, object : RewardCallback {
+                override fun onEarnedReward(rewardItem: RewardItem?) {
+                    isReward = true;
+                }
 
-                    @Override
-                    public void onAdClosed() {
-                        // code here
+                override fun onAdClosed() {
+                    if (isReward) {
+                        action()
+                    } else {
+                        loadAdsReward(activity, id, remote)
                     }
+                }
+                override fun onAdFailedToShow(p0: Int) {
+                    Log.e("ccccccc", "onAdFailedToShow: ")
+                }
 
-                    @Override
-                    public void onAdFailedToShow(int codeError) {
-                       // code here
-                    }
-                });
+                override fun onAdImpression() {
+                    Log.e("ccccccc", "onAdImpression: ")
+                }
+
+            })
 </pre>
 
-
-<h2>- Open splash</h2>
-<div class="content">
-<pre>
-  -- oncreate --
-   AdCallback adCallback;
-   adCallback = new AdCallback(){
-            @Override
-            public void onNextAction() {
-                super.onNextAction();
-                //start activity
-            }
-        };
-   AppOpenManager.getInstance().loadOpenAppAdSplash(this,"ca-app-pub-3940256099942544/3419835294",3000,10000,true,adCallback);
-  ---- onresume -----
-  AppOpenManager.getInstance().onCheckShowSplashWhenFail(this,adCallback,1000);
-</pre>
-<h4>Show RewardAds</h4>
-<pre>
-  Admob.getInstance().showRewardAds(MainActivity.this,new RewardCallback(){
-                    @Override
-                    public void onEarnedReward(RewardItem rewardItem) {
-                        // code here
-                    }
-
-                    @Override
-                    public void onAdClosed() {
-                        // code here
-                    }
-
-                    @Override
-                    public void onAdFailedToShow(int codeError) {
-                       // code here
-                    }
-                });
-</pre>
-</div>
 
 <h2>- NativeAds</h2>
 <div class="content">
@@ -220,84 +249,48 @@ mInterstitialAd = interstitialAd;
 
      =========== OPTION 2 ==========
       Admob.getInstance().loadNativeAd(this, "id native", native_ads,R.layout.ads_native);
+
+
+      // trường hơp loaad native có reload 
+          NativeBuilder builder = new NativeBuilder(this, binding.frAds,
+                        R.layout.ads_shimmer_view_layout, R.layout.ads_native_list_pre_layout);
+            builder.setListIdAd(List<String> ids);
+              NativeManager nativeManager = new NativeManager(this, this, builder);
+    // gọi hàm này khi có sự kiện chuyển màn (startActivity)
+    nativeManager.setReloadAds();
+
 </pre>
 
 </div>
 
+
+<h2>Load collapse banner</h2>
+  <h4>View xml</h4>
+<pre>< include
+        android:id="@+id/include"
+        layout="@layout/layout_banner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:layout_constraintBottom_toBottomOf="parent" /> 
+
+ </pre>
+<pre>
+//load collapse banner khi không cần reload
+ Admob.getInstance().loadCollapsibleBannerFloor(activity, this.getListIDCollapseBannerAll(), "bottom");
+
+ //load collapse banner khi có reload
+ Admob.getInstance().loadCollapsibleBannerFloorWithReload(this,listID,getLifecycle());
+</pre>
 <h4>Hide all ads</h4>
 <pre>
+//ẩn app open resume
+ AppOpenManager.getInstance().disableAppResumeWithActivity(class);
+ 
+// true - show all ads
+ // false - hide all ads
  Admob.getInstance().setShowAllAds(true);
- true - show all ads
- false - hide all ads
+ 
 </pre>
-
-
-<h4>Call API</h4>
-<pre>
-Để link server "" nếu chưa biết link server build 
-<pre>
-AdmobApi.getInstance().init(this,getPackageName(),getString(R.string.linkServer),getString(R.string.app_id),new ApiCallBack(){
-            @Override
-            public void onReady() {
-                super.onReady();
-                AdmobApi.getInstance().loadOpenAppAdSplashFloor(Splash.this,adCallback);
-            }
-        });
-
-<string name="linkServer"></string>
-<string name="app_id">ca-app-pub-3940256099942544~3347511713</string>
-
- ==================== thông tin các list trả về  =====================================
-
-getListIDNativeLanguage() : list ID language
-getListIDNativeIntro() : list ID Intro
-getListIDNativePersimmon() : list ID Permission
-getListIDNativeAll() : list ID Native All 
-getListIDInterAll() : list ID Inter All
-getListIDBannerAll() : list ID banner All
-getListIDCollapseBannerAll() : list ID Banner callap
-getListIDInterIntro(): list ID Inter Intro
-
-Trong trường hợp ko có list nào trong các list trên thì tạo list custom , vd : native_home
-AdmobApi.getInstance().setListIDOther("native_home"); // trước khi init()
-Khi nào cần lấy thì gọi getListIDOther()
-
-<b>Load and show banner API banner all (new) :  </b>
-AdmobApi.getInstance().loadBanner(this)
-AdmobApi.getInstance().loadCollapsibleBanner(this)
-
-<b>Load inter all API ở main(new) :  </b>
-AdmobApi.getInstance().loadInterAll(this);
-<b>Show inter all Api :  </b>
-// ko cần load lại ads sau khi show
-AdmobApi.getInstance().showInterAll(MainActivity.this, new InterCallback() {
-      @Override
-      public void onNextAction() {
-          super.onNextAction();
-          startActivity(new Intent(MainActivity.this,MainActivity3.class));
-      }
-
-  });
-
-<b>Load inter all API ở main(new) :  </b>
-AdmobApi.getInstance().loadInterAll(this);
-<b>Show inter all Api :  </b>
-// ko cần load lại ads sau khi show
-AdmobApi.getInstance().showInterAll(MainActivity.this, new InterCallback() {
-      @Override
-      public void onNextAction() {
-          super.onNextAction();
-          startActivity(new Intent(MainActivity.this,MainActivity3.class));
-      }
-
-  });
-
-
-<b>Native language  </b>
-AdmobApi.getInstance().loadNativeLanguage(this, native_ads,R.layout.ads_native_btn_ads_top);
-<b>Native permission  </b>
-AdmobApi.getInstance().loadNativePermission(this, native_ads,R.layout.ads_native_btn_ads_top);
-<b>Native intro  </b>
-AdmobApi.getInstance().loadNativeIntro(this, listID,R.layout.ads_native_btn_ads_top);
 
 </pre>

@@ -32,9 +32,9 @@ public class BannerBuilder {
         return this;
     }
 
-    public BannerBuilder isIdApi() {
+    public BannerBuilder initId(List<String> ids) {
         this.listId.clear();
-        this.listId.addAll(AdmobApi.getInstance().getListIDBannerAll());
+        this.listId.addAll(ids);
         return this;
     }
 

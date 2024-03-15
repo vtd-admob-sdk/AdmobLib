@@ -7,16 +7,10 @@ import android.util.Log;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.amazic.ads.callback.AdCallback;
-import com.amazic.ads.callback.ApiCallBack;
-import com.amazic.ads.callback.BillingListener;
 import com.amazic.ads.callback.InterCallback;
-import com.amazic.ads.service.AdmobApi;
 import com.amazic.ads.util.Admob;
 import com.amazic.ads.util.AdsConsentManager;
 import com.amazic.ads.util.AdsSplash;
-import com.amazic.ads.util.AppOpenManager;
-import com.amazic.ads.util.remote_config.RemoteConfig;
-import com.amazic.ads.util.remote_config.SharePreRemoteConfig;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -104,11 +98,11 @@ public class Splash extends AppCompatActivity {
 //        idsInter.add("ca-app-pub-3940256099942544/1033173712");
 //        adsSplash.showAdsSplash(Splash.this, idsOpen, idsInter, adCallback, interCallback);
 //        initBilling();
-        setUpUMP();
+        initUmp();
 
     }
 
-    private void setUpUMP() {
+    private void initUmp() {
         AdsConsentManager adsConsentManager = new AdsConsentManager(this);
         adsConsentManager.requestUMP(!AdsConsentManager.getConsentResult(Splash.this),result -> {
                 Log.d("TAG1111", "setUpUMP: " + result);
