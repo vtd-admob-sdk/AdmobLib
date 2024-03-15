@@ -1,5 +1,5 @@
-<h1>DocAmazicSdkLibrary</h1>
-<h3><li>Adding the library to your project: Add the following in your root build.gradle at the end of repositories:</br></h3>
+<h1>Document admob sdk</h1>
+<h3><br>Adding the library to your project: Add the following in your root build.gradle at the end of repositories:</br></h3>
 <pre>
   allprojects {
     repositories {
