@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.amazicadslibrary.app-mergeDebugResources-53:/values-si/values-si.xml",
+            "outputFile": "com.amazicadslibrary.app-mergeDebugResources-52:/values-si/values-si.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-3\\abcaea2d53a106f6d3d366d6be8b2611\\transformed\\appcompat-1.6.1\\res\\values-si\\values-si.xml",

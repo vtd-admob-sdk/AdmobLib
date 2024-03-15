@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.amazicadslibrary.app-mergeDebugResources-53:/values-pt/values-pt.xml",
+            "outputFile": "com.amazicadslibrary.app-mergeDebugResources-52:/values-pt/values-pt.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-3\\1db9f28d05680c48a650fa24d5f6967f\\transformed\\browser-1.4.0\\res\\values-pt\\values-pt.xml",

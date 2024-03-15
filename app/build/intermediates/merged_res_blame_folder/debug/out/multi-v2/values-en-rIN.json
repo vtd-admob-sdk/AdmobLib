@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.amazicadslibrary.app-mergeDebugResources-53:/values-en-rIN/values-en-rIN.xml",
+            "outputFile": "com.amazicadslibrary.app-mergeDebugResources-52:/values-en-rIN/values-en-rIN.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-3\\2dcbe600e083c6232a2947d101636c34\\transformed\\core-1.9.0\\res\\values-en-rIN\\values-en-rIN.xml",

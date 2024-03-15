@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.amazicadslibrary.app-mergeDebugResources-53:/values-ky/values-ky.xml",
+            "outputFile": "com.amazicadslibrary.app-mergeDebugResources-52:/values-ky/values-ky.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-3\\661b0034e288a5b6c325c8ec35264d10\\transformed\\jetified-play-services-ads-22.6.0\\res\\values-ky\\values.xml",

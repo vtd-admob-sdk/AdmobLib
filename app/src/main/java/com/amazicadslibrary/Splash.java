@@ -6,7 +6,6 @@ import android.util.Log;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.amazic.ads.billing.AppPurchase;
 import com.amazic.ads.callback.AdCallback;
 import com.amazic.ads.callback.ApiCallBack;
 import com.amazic.ads.callback.BillingListener;
@@ -133,14 +132,7 @@ public class Splash extends AppCompatActivity {
         adsSplash.showAdsSplash(Splash.this, idsOpen, idsInter, adCallback, interCallback);
     }
 
-    private void initBilling() {
-        AppPurchase.getInstance().setBillingListener(new BillingListener() {
-            @Override
-            public void onInitBillingFinished(int resultCode) {
-                Log.d(TAG, "onInitBillingFinished: " + resultCode);
-            }
-        }, 5000);
-    }
+
 
     @Override
     protected void onResume() {

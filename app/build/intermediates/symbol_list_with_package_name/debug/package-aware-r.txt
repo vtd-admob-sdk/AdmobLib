@@ -4685,8 +4685,6 @@ plurals mtrl_badge_content_description
 raw applovin_consent_flow_gdpr
 raw applovin_consent_flow_privacy_policy
 raw applovin_consent_flow_terms_of_service_and_privacy_policy
-raw com_android_billingclient_heterodyne_info
-raw com_android_billingclient_registration_info
 raw firebase_common_keep
 raw omsdk_v_1_0
 raw resume_loading
@@ -6354,7 +6352,6 @@ styleable com_facebook_login_view com_facebook_confirm_logout com_facebook_login
 styleable com_facebook_profile_picture_view com_facebook_is_cropped com_facebook_preset_size
 styleable include constraintSet
 xml appsflyer_backup_rules
-xml com_android_billingclient_phenotype
 xml gma_ad_services_config
 xml image_share_filepaths
 xml remote_config_defaults

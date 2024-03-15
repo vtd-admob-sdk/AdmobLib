@@ -2,7 +2,6 @@ package com.amazicadslibrary;
 
 import androidx.annotation.NonNull;
 
-import com.amazic.ads.billing.AppPurchase;
 import com.amazic.ads.event.AppsflyerEvent;
 import com.amazic.ads.util.Admob;
 import com.amazic.ads.util.AdsApplication;
@@ -22,7 +21,6 @@ public class MyApplication extends AdsApplication {
         listINAPId.add(PRODUCT_ID_MONTH);
         List<String> listSubsId = new ArrayList<>();
         listSubsId.add(PRODUCT_ID_MONTH);
-        AppPurchase.getInstance().initBilling(this, listINAPId, listSubsId);
     }
 
     @NonNull

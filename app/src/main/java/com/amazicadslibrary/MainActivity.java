@@ -9,7 +9,6 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.amazic.ads.billing.AppPurchase;
 import com.amazic.ads.callback.InterCallback;
 import com.amazic.ads.callback.PurchaseListener;
 import com.amazic.ads.callback.RewardCallback;
@@ -138,29 +137,13 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 //AppPurchase.getInstance().consumePurchase(PRODUCT_ID_MONTH);
                 //AppPurchase.getInstance().purchase(MainActivity.this, PRODUCT_ID_MONTH);
-                AppPurchase.getInstance().subscribe(MainActivity.this, PRODUCT_ID_MONTH);
                 //real
                 // AppPurchase.getInstance().subscribe(MainActivity.this, SubID);
             }
         });
 
 
-        AppPurchase.getInstance().setPurchaseListener(new PurchaseListener() {
-            @Override
-            public void onProductPurchased(String productId,String transactionDetails) {
-               Toast.makeText(MainActivity.this,"Purchase success",Toast.LENGTH_SHORT).show();
-            }
 
-            @Override
-            public void displayErrorMessage(String errorMsg) {
-                Toast.makeText(MainActivity.this,"Purchase fall",Toast.LENGTH_SHORT).show();
-            }
-            @Override
-            public void onUserCancelBilling() {
-
-                Toast.makeText(MainActivity.this,"Purchase cancel",Toast.LENGTH_SHORT).show();
-            }
-        });
         // reset pay Purchase
        /*AppPurchase.getInstance().consumePurchase(Constants.PRODUCT_ID_MONTH);
         AppPurchase.getInstance().consumePurchase(Constants.PRODUCT_ID_YEAR);
