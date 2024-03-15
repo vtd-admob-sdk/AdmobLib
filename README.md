@@ -10,10 +10,10 @@
 	}
 }
 </pre>
-<h5>Implement library in your app level build.gradle:</h5>
+<h3>Implement library in your app level build.gradle:</h3>
 <pre>
  dependencies {
-    implementation 'com.github.vtd-admob-sdk:AdmobLib:0.0.0'
+    implementation 'com.github.vtd-admob-sdk:AdmobLib:0.0.1'
     implementation 'com.google.android.gms:play-services-ads:22.1.0'
     implementation 'com.facebook.shimmer:shimmer:0.5.0'
     //multidex
@@ -114,7 +114,7 @@ AdsConsentManager adsConsentManager = new AdsConsentManager(this);
     }
 
 </pre>
-<h2>- BannerAds</h2>
+<h3>- BannerAds</h3>
 <div class="content">
   <h4>View xml</h4>
 <pre>< include
@@ -145,7 +145,6 @@ Admob.getInstance().loadBannerFragment( mActivity, "bannerID",  rootView)
 
 </pre>
 </div>
-<h2>IntertitialAds</h2>
 
 <h3>- InterstitialAds</h3>
   <h4>Create and load interstitialAds</h4>
@@ -179,11 +178,11 @@ Admob.getInstance().loadBannerFragment( mActivity, "bannerID",  rootView)
 </pre>
 </div>
 
-<h2>- RewardAds</h2>
+<h3>- RewardAds</h3>
 <div class="content">
   <h4>Init RewardAds</h4>
 <pre>  Admob.getInstance().initRewardAds(this,reward_id);</pre>
-<h4>Show RewardAds</h4>
+<h3>Show RewardAds</h3>
 <pre>
     var isReward = false
  Admob.getInstance().showRewardAds(activity, object : RewardCallback {
@@ -210,7 +209,7 @@ Admob.getInstance().loadBannerFragment( mActivity, "bannerID",  rootView)
 </pre>
 
 
-<h2>- NativeAds</h2>
+<h3>- NativeAds</h3>
 <div class="content">
   <h4>View xml</h4>
 <pre>
@@ -224,7 +223,7 @@ Admob.getInstance().loadBannerFragment( mActivity, "bannerID",  rootView)
         <include layout="@layout/ads_native_shimer" />
 
 </pre>
-<h4>Create and show nativeAds</h4>
+<h3>Create and show nativeAds</h3>
 <pre>
 
      private FrameLayout native_ads;
@@ -249,6 +248,8 @@ Admob.getInstance().loadBannerFragment( mActivity, "bannerID",  rootView)
 
      =========== OPTION 2 ==========
       Admob.getInstance().loadNativeAd(this, "id native", native_ads,R.layout.ads_native);
+    Admob.getInstance().loadNativeAdFloor(this, List<String>, frameLayout,R.layout.ads_native);
+
 
 
       // trường hơp loaad native có reload 
@@ -264,7 +265,7 @@ Admob.getInstance().loadBannerFragment( mActivity, "bannerID",  rootView)
 </div>
 
 
-<h2>Load collapse banner</h2>
+<h3>Load collapse banner</h3>
   <h4>View xml</h4>
 <pre>< include
         android:id="@+id/include"
@@ -282,11 +283,11 @@ Admob.getInstance().loadBannerFragment( mActivity, "bannerID",  rootView)
  //load collapse banner khi có reload
  Admob.getInstance().loadCollapsibleBannerFloorWithReload(this,listID,getLifecycle());
 </pre>
-<h4>Hide all ads</h4>
+<h3>Hide all ads</h3>
 <pre>
 //ẩn app open resume
  AppOpenManager.getInstance().disableAppResumeWithActivity(class);
- 
+
 // true - show all ads
  // false - hide all ads
  Admob.getInstance().setShowAllAds(true);

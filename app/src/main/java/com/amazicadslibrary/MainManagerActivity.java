@@ -33,8 +33,7 @@ public class MainManagerActivity extends AppCompatActivity {
 
     @NonNull
     private BannerManager initBannerManager() {
-        BannerBuilder bannerBuilder = new BannerBuilder(this, this)
-                .isIdApi();
+        BannerBuilder bannerBuilder = new BannerBuilder(this, this).initId(null);
         BannerManager bannerManager = new BannerManager(bannerBuilder);
         return bannerManager;
     }
