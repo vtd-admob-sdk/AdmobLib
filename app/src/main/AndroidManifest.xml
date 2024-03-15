@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.amazicadslibrary">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:logo="@drawable/logo_metal"
+        android:roundIcon="@drawable/logo_metal"
+        android:icon="@drawable/logo_metal"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AmazicAdsLibrary"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".MainActivity4"
+            android:exported="false" />
+        <activity
+            android:name=".ResumeActivity"
+            android:exported="false" />
+        <activity android:name=".MainActivity3" />
+        <activity
+            android:name=".Splash"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity2" />
+        <activity android:name=".MainManagerActivity" />
+        <activity android:name=".MainActivity"
+            android:exported="true">
+
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713" />
+        <meta-data
+            android:name="applovin.sdk.key"
+            android:value="VVIqwEtdXn9RkPMcoBv0GOvmmCmvwb5aLGm6m0sqH9v8fT_Xtlz75dNvLvWWV4c7pBiUk6Z1cxfISWgVTgbzIo" />
+    </application>
+
+</manifest>

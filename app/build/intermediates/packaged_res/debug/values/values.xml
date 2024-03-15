@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <color name="black">#FF000000</color>
+    <color name="color_app">#32E625</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="admod_app_id">ca-app-pub-4973559944609228~1107567880</string>
+    <string name="admod_app_open_ad_id">ca-app-pub-3940256099942544/3419835294</string>
+    <string name="admod_app_reward_id">ca-app-pub-3940256099942544/5224354917</string>
+    <string name="admod_banner_collap_id">ca-app-pub-3940256099942544/2014213617</string>
+    <string name="admod_banner_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="admod_interstitial_id">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="admod_native_id">ca-app-pub-3940256099942544/2247696110</string>
+    <string name="app_id">ca-app-pub-4973559944609228~2346710864</string>
+    <string name="app_name">AmazicAdsLibrary</string>
+    <string name="com.crashlytics.android.build_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">00000000000000000000000000000000</string>
+    <string name="gcm_defaultSenderId" translatable="false">495399147315</string>
+    <string name="google_api_key" translatable="false">AIzaSyAQjK3Csm1IR6XpLvsV4C-1RCOPFZlKR9Q</string>
+    <string name="google_app_id" translatable="false">1:495399147315:android:379a69bbcb7ac9fa891046</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAQjK3Csm1IR6XpLvsV4C-1RCOPFZlKR9Q</string>
+    <string name="google_storage_bucket" translatable="false">adsfa-36bfa.appspot.com</string>
+    <string name="linkServer">http://language-master.top</string>
+    <string name="project_id" translatable="false">adsfa-36bfa</string>
+    <style name="Theme.AmazicAdsLibrary" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <item name="android:statusBarColor" ns1:targetApi="l">?attr/colorPrimaryVariant</item>
+        
+    </style>
+</resources>
