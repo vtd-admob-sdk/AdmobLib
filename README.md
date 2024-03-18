@@ -81,6 +81,7 @@ multiDexEnabled true
 
 <h3><br>init Ump (Use in Splash Activity)</br></h3>
 <pre>
+// chú ý muốn hiện dialog ump thì cần fake ip sang châu âu, và logo của app phải có kích thước 512x512
 AdsConsentManager adsConsentManager = new AdsConsentManager(this);
         adsConsentManager.requestUMP(!AdsConsentManager.getConsentResult(Splash.this),result -> {
                 // accept ump
