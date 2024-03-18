@@ -72,448 +72,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11dcd3a8-c205-4efe-8ce0-a9e2cc2ea3b9" name="Changes" comment="init ad">
-      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ads/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/ads/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/5255cb359cb1a0650eb2e73bc26eda03/results.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/53d4db7d8d054371c508f8793417dbda/results.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/53d4db7d8d054371c508f8793417dbda/transformed/classes/classes.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/results.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/BuildConfig.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/callback/AdCallback.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/callback/ApiCallBack.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/callback/BannerCallBack.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/callback/BillingListener.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/callback/InterCallback.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/callback/NativeCallback.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/callback/PurchaseListener.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/callback/PurchaseListioner.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/callback/RewardCallback.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/callback/UpdatePurchaseListener.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/dialog/LoadingAdsDialog.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/dialog/ResumeLoadingDialog.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/event/AdType.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/event/AdmobEvent.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/event/AppsflyerEvent.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/event/FacebookEventUtils.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/event/FirebaseAnalyticsUtil.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/event/FirebaseUtil.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/service/AdmobApi$1.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/service/AdmobApi$2.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/service/AdmobApi$3.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/service/AdmobApi$4.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/service/AdmobApi.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/service/AdsModel.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/service/ApiService.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/util/Admob$1.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/util/Admob$10.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/util/Admob$11.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/util/Admob$12$1.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/util/Admob$12.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/util/Admob$13.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/util/Admob$14.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/util/Admob$15.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/util/Admob$16.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/util/Admob$17.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/util/Admob$18.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/util/Admob$19.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/util/Admob$2.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/util/Admob$20.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/util/Admob$21.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/util/Admob$22$1.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/util/Admob$22.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/util/Admob$23.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/util/Admob$24.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/util/Admob$25.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/util/Admob$26.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/util/Admob$27.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/util/Admob$28.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/util/Admob$29.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/util/Admob$3.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/util/Admob$30.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/util/Admob$31.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/util/Admob$32.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/util/Admob$33.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/util/Admob$34.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/util/Admob$35.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/util/Admob$36.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/util/Admob$37.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/util/Admob$38.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/util/Admob$39.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/util/Admob$4.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/util/Admob$40.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/util/Admob$41.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/util/Admob$5.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/util/Admob$6.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/util/Admob$7.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/util/Admob$8.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/util/Admob$9.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/util/Admob$StateInter.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/util/Admob.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/util/AdsApplication.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/util/AdsConsentManager$1.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/util/AdsConsentManager$2.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/util/AdsConsentManager$UMPResultListener.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/util/AdsConsentManager.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/util/AdsSplash$STATE.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/util/AdsSplash.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/util/AppOpenManager$1.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/util/AppOpenManager$10.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/util/AppOpenManager$11.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/util/AppOpenManager$12.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/util/AppOpenManager$13.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/util/AppOpenManager$2.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/util/AppOpenManager$3.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/util/AppOpenManager$4.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/util/AppOpenManager$5.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/util/AppOpenManager$6$1.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/util/AppOpenManager$6.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/util/AppOpenManager$7$1.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/util/AppOpenManager$7.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/util/AppOpenManager$8.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/util/AppOpenManager$9.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/util/AppOpenManager.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/util/AppOpenManager_LifecycleAdapter.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/util/AppUtil.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/util/BannerGravity.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/util/Helper.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/util/NetworkUtil.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/util/SharePreferenceUtils.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/util/detect_test_ad/DetectTestAd$IOnImageToTextSuccess.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/util/detect_test_ad/DetectTestAd.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/util/manager/banner/BannerBuilder.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/util/manager/banner/BannerManager$1.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/util/manager/banner/BannerManager$2.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/util/manager/banner/BannerManager$State.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/util/manager/banner/BannerManager.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/util/manager/collapsebanner/CollapseBannerManager$1.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/util/manager/collapsebanner/CollapseBannerManager.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/util/manager/native_ad/NativeBuilder.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/util/manager/native_ad/NativeManager$1.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/util/manager/native_ad/NativeManager$2.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/util/manager/native_ad/NativeManager$State.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/util/manager/native_ad/NativeManager.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/util/manager/open_app/AdOpenAppManager$1.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/util/manager/open_app/AdOpenAppManager$2.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/util/manager/open_app/AdOpenAppManager$State.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/util/manager/open_app/AdOpenAppManager.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/util/manager/open_app/OpenAppBuilder.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/util/manager/open_app/OpenAppCallback.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/util/remote_config/RemoteConfig$OnCompleteListener.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/util/remote_config/RemoteConfig.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/debug/com/amazic/ads/util/remote_config/SharePreRemoteConfig.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/.transforms/6f274fa39c3876ebc67a26951ab78294/transformed/desugar_graph.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/aar_main_jar/debug/classes.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ads/build/intermediates/aar_main_jar/debug/classes.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/annotations_zip/debug/annotations.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/compile_library_classes_jar/debug/classes.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ads/build/intermediates/compile_library_classes_jar/debug/classes.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/generated_proguard_file/debug/proguard.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ads/build/intermediates/generated_proguard_file/debug/proguard.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ads/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ads/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/incremental/mergeDebugShaders/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ads/build/intermediates/incremental/mergeDebugShaders/merger.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/incremental/packageDebugAssets/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ads/build/intermediates/incremental/packageDebugAssets/merger.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/javac/debug/classes/com/amazic/ads/util/manager/banner/BannerBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/ads/build/intermediates/javac/debug/classes/com/amazic/ads/util/manager/banner/BannerBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/merged_consumer_proguard_file/debug/proguard.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ads/build/intermediates/merged_consumer_proguard_file/debug/proguard.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/META-INF/proguard/com.amazic.ads.util.AppOpenManager.pro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/BuildConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/callback/AdCallback.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/callback/ApiCallBack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/callback/BannerCallBack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/callback/BillingListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/callback/InterCallback.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/callback/NativeCallback.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/callback/PurchaseListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/callback/PurchaseListioner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/callback/RewardCallback.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/callback/UpdatePurchaseListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/dialog/LoadingAdsDialog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/dialog/ResumeLoadingDialog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/event/AdType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/event/AdmobEvent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/event/AppsflyerEvent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/event/FacebookEventUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/event/FirebaseAnalyticsUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/event/FirebaseUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/service/AdmobApi$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/service/AdmobApi$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/service/AdmobApi$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/service/AdmobApi$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/service/AdmobApi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/service/AdsModel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/service/ApiService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/util/Admob$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/util/Admob$10.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/util/Admob$11.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/util/Admob$12$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/util/Admob$12.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/util/Admob$13.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/util/Admob$14.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/util/Admob$15.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/util/Admob$16.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/util/Admob$17.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/util/Admob$18.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/util/Admob$19.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/util/Admob$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/util/Admob$20.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/util/Admob$21.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/util/Admob$22$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/util/Admob$22.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/util/Admob$23.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/util/Admob$24.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/util/Admob$25.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/util/Admob$26.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/util/Admob$27.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/util/Admob$28.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/util/Admob$29.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/util/Admob$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/util/Admob$30.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/util/Admob$31.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/util/Admob$32.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/util/Admob$33.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/util/Admob$34.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/util/Admob$35.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/util/Admob$36.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/util/Admob$37.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/util/Admob$38.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/util/Admob$39.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/util/Admob$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/util/Admob$40.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/util/Admob$41.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/util/Admob$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/util/Admob$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/util/Admob$7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/util/Admob$8.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/util/Admob$9.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/util/Admob$StateInter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/util/Admob.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/util/AdsApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/util/AdsConsentManager$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/util/AdsConsentManager$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/util/AdsConsentManager$UMPResultListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/util/AdsConsentManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/util/AdsSplash$STATE.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/util/AdsSplash.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/util/AppOpenManager$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/util/AppOpenManager$10.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/util/AppOpenManager$11.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/util/AppOpenManager$12.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/util/AppOpenManager$13.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/util/AppOpenManager$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/util/AppOpenManager$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/util/AppOpenManager$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/util/AppOpenManager$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/util/AppOpenManager$6$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/util/AppOpenManager$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/util/AppOpenManager$7$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/util/AppOpenManager$7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/util/AppOpenManager$8.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/util/AppOpenManager$9.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/util/AppOpenManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/util/AppOpenManager_LifecycleAdapter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/util/AppUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/util/BannerGravity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/util/Helper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/util/NetworkUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/util/SharePreferenceUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/util/detect_test_ad/DetectTestAd$IOnImageToTextSuccess.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/util/detect_test_ad/DetectTestAd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/util/manager/banner/BannerBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/util/manager/banner/BannerManager$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/util/manager/banner/BannerManager$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/util/manager/banner/BannerManager$State.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/util/manager/banner/BannerManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/util/manager/collapsebanner/CollapseBannerManager$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/util/manager/collapsebanner/CollapseBannerManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/util/manager/native_ad/NativeBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/util/manager/native_ad/NativeManager$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/util/manager/native_ad/NativeManager$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/util/manager/native_ad/NativeManager$State.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/util/manager/native_ad/NativeManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/util/manager/open_app/AdOpenAppManager$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/util/manager/open_app/AdOpenAppManager$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/util/manager/open_app/AdOpenAppManager$State.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/util/manager/open_app/AdOpenAppManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/util/manager/open_app/OpenAppBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/util/manager/open_app/OpenAppCallback.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/util/remote_config/RemoteConfig$OnCompleteListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/util/remote_config/RemoteConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_dir/debug/com/amazic/ads/util/remote_config/SharePreRemoteConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_jar/debug/classes.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ads/build/intermediates/runtime_library_classes_jar/debug/classes.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/outputs/aar/vtd-admob-sdk.aar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/build/tmp/compileDebugJavaWithJavac/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/ads/build/tmp/compileDebugJavaWithJavac/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/apk/debug/app-debug.apk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/apk/debug/output-metadata.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/apk_ide_redirect_file/debug/redirect.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/apk_ide_redirect_file/debug/redirect.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/desugar_graph/debug/out/currentProject/dirs_bucket_0/graph.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/desugar_graph/debug/out/currentProject/dirs_bucket_0/graph.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/desugar_graph/debug/out/currentProject/dirs_bucket_1/graph.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/desugar_graph/debug/out/currentProject/dirs_bucket_1/graph.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/desugar_graph/debug/out/currentProject/dirs_bucket_2/graph.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/desugar_graph/debug/out/currentProject/dirs_bucket_2/graph.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/desugar_graph/debug/out/currentProject/dirs_bucket_3/graph.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/desugar_graph/debug/out/currentProject/dirs_bucket_3/graph.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/desugar_graph/debug/out/currentProject/dirs_bucket_4/graph.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/desugar_graph/debug/out/currentProject/dirs_bucket_4/graph.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/desugar_graph/debug/out/currentProject/dirs_bucket_5/graph.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/desugar_graph/debug/out/currentProject/dirs_bucket_5/graph.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeExtDexDebug/classes2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeExtDexDebug/classes2.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeExtDexDebug/classes3.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeExtDexDebug/classes3.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeLibDexDebug/1/classes.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeLibDexDebug/10/classes.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeLibDexDebug/11/classes.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeLibDexDebug/12/classes.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeLibDexDebug/13/classes.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeLibDexDebug/14/classes.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeLibDexDebug/15/classes.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeLibDexDebug/2/classes.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeLibDexDebug/5/classes.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeLibDexDebug/6/classes.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeLibDexDebug/7/classes.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeLibDexDebug/8/classes.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeProjectDexDebug/6/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeProjectDexDebug/6/classes.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/merge-state" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/+1mo+lYBy6HVgdN0U7NI_bs7Gjs=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/+1mo+lYBy6HVgdN0U7NI_bs7Gjs=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/+TJfiWYgqNJf19S7xT6BDeVSB3U=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/3py4Ca_SbuWFP5JJcnrzAPy90BM=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/3u7CtWx1RLkHIA21D_zlJwwOnFs=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/3u7CtWx1RLkHIA21D_zlJwwOnFs=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/5fWZ9zvJGqjNDShdLzLfTlzgP9o=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/5fWZ9zvJGqjNDShdLzLfTlzgP9o=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/BS4elBEUB4NIVeECS277ysAtr3I=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/BS4elBEUB4NIVeECS277ysAtr3I=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/CP8u1lzled5RkAHo6Sp119iZGwY=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/CP8u1lzled5RkAHo6Sp119iZGwY=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/CdBuHyyKo5nu4h8RdvLaIpmaWE0=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/CdBuHyyKo5nu4h8RdvLaIpmaWE0=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/FYa40EMQQjPsRsMgOu7BRd4ADs8=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/FYa40EMQQjPsRsMgOu7BRd4ADs8=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/F_aAh4feu0viLOcer1q9dQFzNA8=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/INLCo5eGleTAdc+S7ovSNu_2mOM=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/INLCo5eGleTAdc+S7ovSNu_2mOM=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/JuAbkSNi9ksrPw3FXY4vDiaZwPw=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/K6ehaFKlReDxIqeapjIaDRJWiYU=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/K6ehaFKlReDxIqeapjIaDRJWiYU=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/L9llXE79xEzfLSnRTcXP_liC5t0=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/LsZmsDhSPmzdcifuZms9RoxwMSc=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/LsZmsDhSPmzdcifuZms9RoxwMSc=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/NBBDy7_GF_95PktTfww9kaONmqo=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/NBBDy7_GF_95PktTfww9kaONmqo=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/P5ILUaKPlzr65kmjBpdztnAuHus=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/P5ILUaKPlzr65kmjBpdztnAuHus=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/PUrOO5B4gPnC+0teu0mqmKAuxiI=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/Z+S_yg8eBT2bC7d75XXm+zcSZzQ=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/_EO9pEo3AvaTLffwWxjGi0MOS6Y=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/_EO9pEo3AvaTLffwWxjGi0MOS6Y=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/bNgbDdyoOagbv2lXxsjk+mjEq1g=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/dpvUlbooviEkiahc6hGP6LMtN24=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/jZr1QRymj2y5Ap+i_z1yCvQoRLQ=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/kDzvkWUjZjQ1jhBLFi8SlF+0+vA=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/ozc3ujvQ98mXTi9bOdvuJ6JYQWc=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/ozc3ujvQ98mXTi9bOdvuJ6JYQWc=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/p5tcqFEJMjT+T2kZsFyuGtcItUs=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/p5tcqFEJMjT+T2kZsFyuGtcItUs=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/qGA+Rgh036xpaDUbrIPdFy_u9_A=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/sLZbZbvhWcvhtIl8UZ7jEdlD550=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/sLZbZbvhWcvhtIl8UZ7jEdlD550=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/sMGpVVozj5C5tyH9KBZnjfW4LCE=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/sMGpVVozj5C5tyH9KBZnjfW4LCE=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/uiniJBj6zqvv1JQtAosNM_VAxSc=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/yra+Rb_Cd+WPN3apYVQVB0ysyHU=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/compile-file-map.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugShaders/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugShaders/merger.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/javaResources0" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/javaResources0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/amazicadslibrary/MainManagerActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/amazicadslibrary/MainManagerActivity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/amazicadslibrary/Splash$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/amazicadslibrary/Splash$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/amazicadslibrary/Splash$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/amazicadslibrary/Splash$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/amazicadslibrary/Splash.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/amazicadslibrary/Splash.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_java_res/debug/base.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_java_res/debug/base.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_manifest/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_manifest/debug/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/packaged_manifests/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/packaged_manifests/debug/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/processed_res/debug/out/resources-debug.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/processed_res/debug/out/resources-debug.ap_" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/5b0aa438b748b41efabb5864929881a646a2c0bd918e88ee118f3a7217f227b2_0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/5b0aa438b748b41efabb5864929881a646a2c0bd918e88ee118f3a7217f227b2_0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/5b0aa438b748b41efabb5864929881a646a2c0bd918e88ee118f3a7217f227b2_1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/5b0aa438b748b41efabb5864929881a646a2c0bd918e88ee118f3a7217f227b2_1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/5b0aa438b748b41efabb5864929881a646a2c0bd918e88ee118f3a7217f227b2_2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/5b0aa438b748b41efabb5864929881a646a2c0bd918e88ee118f3a7217f227b2_2.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/5b0aa438b748b41efabb5864929881a646a2c0bd918e88ee118f3a7217f227b2_3.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/5b0aa438b748b41efabb5864929881a646a2c0bd918e88ee118f3a7217f227b2_3.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/5b0aa438b748b41efabb5864929881a646a2c0bd918e88ee118f3a7217f227b2_4.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/5b0aa438b748b41efabb5864929881a646a2c0bd918e88ee118f3a7217f227b2_4.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/5b0aa438b748b41efabb5864929881a646a2c0bd918e88ee118f3a7217f227b2_5.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/5b0aa438b748b41efabb5864929881a646a2c0bd918e88ee118f3a7217f227b2_5.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/amazicadslibrary/BuildConfig.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/amazicadslibrary/BuildConfig.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/amazicadslibrary/Fragment1$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/amazicadslibrary/Fragment1$1.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/amazicadslibrary/Fragment1$2$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/amazicadslibrary/Fragment1$2$1.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/amazicadslibrary/Fragment1$2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/amazicadslibrary/Fragment1$2.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/amazicadslibrary/Fragment1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/amazicadslibrary/Fragment1.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/amazicadslibrary/Fragment2$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/amazicadslibrary/Fragment2$1.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/amazicadslibrary/Fragment2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/amazicadslibrary/Fragment2.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/amazicadslibrary/MainActivity$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/amazicadslibrary/MainActivity$1.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/amazicadslibrary/MainActivity$2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/amazicadslibrary/MainActivity$2.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/amazicadslibrary/MainActivity$3$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/amazicadslibrary/MainActivity$3$1.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/amazicadslibrary/MainActivity$3.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/amazicadslibrary/MainActivity$3.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/amazicadslibrary/MainActivity$4$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/amazicadslibrary/MainActivity$4$1.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/amazicadslibrary/MainActivity$4.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/amazicadslibrary/MainActivity$4.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/amazicadslibrary/MainActivity$5$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/amazicadslibrary/MainActivity$5$1.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/amazicadslibrary/MainActivity$5.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/amazicadslibrary/MainActivity$5.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/amazicadslibrary/MainActivity$6.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/amazicadslibrary/MainActivity$6.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/amazicadslibrary/MainActivity$7.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/amazicadslibrary/MainActivity$7.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/amazicadslibrary/MainActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/amazicadslibrary/MainActivity.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/amazicadslibrary/MainActivity2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/amazicadslibrary/MainActivity2.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/amazicadslibrary/MainActivity3$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/amazicadslibrary/MainActivity3$1.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/amazicadslibrary/MainActivity3.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/amazicadslibrary/MainActivity3.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/amazicadslibrary/MainActivity4$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/amazicadslibrary/MainActivity4$1.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/amazicadslibrary/MainActivity4$2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/amazicadslibrary/MainActivity4$2.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/amazicadslibrary/MainActivity4$3$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/amazicadslibrary/MainActivity4$3$1.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/amazicadslibrary/MainActivity4$3.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/amazicadslibrary/MainActivity4$3.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/amazicadslibrary/MainActivity4$4.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/amazicadslibrary/MainActivity4$4.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/amazicadslibrary/MainActivity4$5.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/amazicadslibrary/MainActivity4$5.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/amazicadslibrary/MainActivity4.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/amazicadslibrary/MainActivity4.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/amazicadslibrary/MainManagerActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/amazicadslibrary/MainManagerActivity.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/amazicadslibrary/MyApplication.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/amazicadslibrary/MyApplication.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/amazicadslibrary/ResumeActivity$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/amazicadslibrary/ResumeActivity$1.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/amazicadslibrary/ResumeActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/amazicadslibrary/ResumeActivity.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/amazicadslibrary/Splash$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/amazicadslibrary/Splash$1.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/amazicadslibrary/Splash$2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/amazicadslibrary/Splash$2.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/amazicadslibrary/Splash.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/amazicadslibrary/Splash.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/signing_config_versions/debug/signing-config-versions.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/signing_config_versions/debug/signing-config-versions.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/stable_resource_ids_file/debug/stableIds.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/outputs/apk/debug/output-metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/outputs/apk/debug/output-metadata.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/tmp/compileDebugJavaWithJavac/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/compileDebugJavaWithJavac/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/amazicadslibrary/MainManagerActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/amazicadslibrary/MainManagerActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jitpack.yml" beforeDir="false" afterPath="$PROJECT_DIR$/jitpack.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sdk/build/.transforms/871cc2c72bf7ef634a7217f247f4656a/results.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sdk/build/.transforms/d423353078f61ba290f2f0af221fc06e/results.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sdk/build/.transforms/d423353078f61ba290f2f0af221fc06e/transformed/debug/com/amazic/admobMeditationSdk/BuildConfig.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sdk/build/.transforms/d423353078f61ba290f2f0af221fc06e/transformed/debug/com/amazic/admobMeditationSdk/admob/banner$1.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sdk/build/.transforms/d423353078f61ba290f2f0af221fc06e/transformed/debug/com/amazic/admobMeditationSdk/admob/banner.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sdk/build/.transforms/d423353078f61ba290f2f0af221fc06e/transformed/debug/com/amazic/admobMeditationSdk/admob/inter$1$1.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sdk/build/.transforms/d423353078f61ba290f2f0af221fc06e/transformed/debug/com/amazic/admobMeditationSdk/admob/inter$1.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sdk/build/.transforms/d423353078f61ba290f2f0af221fc06e/transformed/debug/com/amazic/admobMeditationSdk/admob/inter.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sdk/build/.transforms/d423353078f61ba290f2f0af221fc06e/transformed/debug/com/amazic/admobMeditationSdk/admob/nativeAds$1.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sdk/build/.transforms/d423353078f61ba290f2f0af221fc06e/transformed/debug/com/amazic/admobMeditationSdk/admob/nativeAds.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sdk/build/.transforms/d423353078f61ba290f2f0af221fc06e/transformed/debug/com/amazic/admobMeditationSdk/adx/banner$1.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sdk/build/.transforms/d423353078f61ba290f2f0af221fc06e/transformed/debug/com/amazic/admobMeditationSdk/adx/banner.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sdk/build/.transforms/d423353078f61ba290f2f0af221fc06e/transformed/debug/com/amazic/admobMeditationSdk/adx/inter$1$1.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sdk/build/.transforms/d423353078f61ba290f2f0af221fc06e/transformed/debug/com/amazic/admobMeditationSdk/adx/inter$1.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sdk/build/.transforms/d423353078f61ba290f2f0af221fc06e/transformed/debug/com/amazic/admobMeditationSdk/adx/inter.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sdk/build/.transforms/d423353078f61ba290f2f0af221fc06e/transformed/debug/com/amazic/admobMeditationSdk/adx/nativeAds$1.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sdk/build/.transforms/d423353078f61ba290f2f0af221fc06e/transformed/debug/com/amazic/admobMeditationSdk/adx/nativeAds.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sdk/build/.transforms/d423353078f61ba290f2f0af221fc06e/transformed/debug/com/amazic/admobMeditationSdk/util/FirebaseAnalyticsUtil.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sdk/build/.transforms/d423353078f61ba290f2f0af221fc06e/transformed/desugar_graph.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sdk/build/.transforms/d697b8ef0dd0687572b5e40803519b02/results.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sdk/build/.transforms/d697b8ef0dd0687572b5e40803519b02/transformed/classes/classes.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sdk/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/sdk/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sdk/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sdk/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sdk/build/intermediates/incremental/mergeDebugShaders/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sdk/build/intermediates/incremental/mergeDebugShaders/merger.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sdk/build/intermediates/incremental/packageDebugAssets/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sdk/build/intermediates/incremental/packageDebugAssets/merger.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sdk/build/intermediates/runtime_library_classes_dir/debug/com/amazic/admobMeditationSdk/BuildConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sdk/build/intermediates/runtime_library_classes_dir/debug/com/amazic/admobMeditationSdk/admob/banner$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sdk/build/intermediates/runtime_library_classes_dir/debug/com/amazic/admobMeditationSdk/admob/banner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sdk/build/intermediates/runtime_library_classes_dir/debug/com/amazic/admobMeditationSdk/admob/inter$1$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sdk/build/intermediates/runtime_library_classes_dir/debug/com/amazic/admobMeditationSdk/admob/inter$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sdk/build/intermediates/runtime_library_classes_dir/debug/com/amazic/admobMeditationSdk/admob/inter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sdk/build/intermediates/runtime_library_classes_dir/debug/com/amazic/admobMeditationSdk/admob/nativeAds$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sdk/build/intermediates/runtime_library_classes_dir/debug/com/amazic/admobMeditationSdk/admob/nativeAds.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sdk/build/intermediates/runtime_library_classes_dir/debug/com/amazic/admobMeditationSdk/adx/banner$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sdk/build/intermediates/runtime_library_classes_dir/debug/com/amazic/admobMeditationSdk/adx/banner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sdk/build/intermediates/runtime_library_classes_dir/debug/com/amazic/admobMeditationSdk/adx/inter$1$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sdk/build/intermediates/runtime_library_classes_dir/debug/com/amazic/admobMeditationSdk/adx/inter$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sdk/build/intermediates/runtime_library_classes_dir/debug/com/amazic/admobMeditationSdk/adx/inter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sdk/build/intermediates/runtime_library_classes_dir/debug/com/amazic/admobMeditationSdk/adx/nativeAds$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sdk/build/intermediates/runtime_library_classes_dir/debug/com/amazic/admobMeditationSdk/adx/nativeAds.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sdk/build/intermediates/runtime_library_classes_dir/debug/com/amazic/admobMeditationSdk/util/FirebaseAnalyticsUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sdk/build/tmp/compileDebugJavaWithJavac/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/sdk/build/tmp/compileDebugJavaWithJavac/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vtd-admob-sdk.aar" beforeDir="false" afterPath="$PROJECT_DIR$/vtd-admob-sdk.aar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -543,7 +106,12 @@
         </task>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="AdmobLib" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
@@ -585,8 +153,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "SHOW_ALL_PROCESSES": "false",
+    "android.gradle.sync.needed": "true",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
     "dart.analysis.tool.window.visible": "false",
@@ -783,7 +351,14 @@
       <option name="project" value="LOCAL" />
       <updated>1710500976880</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="init ad">
+      <created>1710501846355</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1710501846355</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

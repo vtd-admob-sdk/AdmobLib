@@ -89,7 +89,7 @@ publishing {
         create(MavenPublication) {
             groupId = "com.github.vtd-admob-sdk"
             artifactId = "AdmobLib"
-            version = "0.0.1"
+            version = "0.0.2"
             pom {
                 description.set("First release")
             }
