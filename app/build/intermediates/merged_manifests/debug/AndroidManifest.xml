@@ -59,7 +59,6 @@
         android:logo="@drawable/logo_metal"
         android:roundIcon="@drawable/logo_metal"
         android:supportsRtl="true"
-        android:testOnly="true"
         android:theme="@style/Theme.AmazicAdsLibrary"
         android:usesCleartextTraffic="true" >
         <activity
