@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.amazicadslibrary.app-mergeDebugResources-52:/values-zh/values-zh.xml",
+            "outputFile": "com.amazicadslibrary.app-mergeDebugResources-51:/values-zh/values-zh.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-3\\1666dcd01c341f09112dc08089e75554\\transformed\\jetified-applovin-sdk-11.9.0\\res\\values-zh\\values-zh.xml",

@@ -3643,32 +3643,6 @@
     </declare-styleable><declare-styleable name="StateListDrawableItem">
         
         <attr name="android:drawable"/>
-    </declare-styleable></file></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="com.airbnb.android:lottie:5.0.2$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\Admin\.gradle\caches\transforms-3\e2d92af924a790f3efc90ffd637f1607\transformed\jetified-lottie-5.0.2\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="com.airbnb.android:lottie:5.0.2" from-dependency="true" generated-set="com.airbnb.android:lottie:5.0.2$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\Admin\.gradle\caches\transforms-3\e2d92af924a790f3efc90ffd637f1607\transformed\jetified-lottie-5.0.2\res"><file path="C:\Users\Admin\.gradle\caches\transforms-3\e2d92af924a790f3efc90ffd637f1607\transformed\jetified-lottie-5.0.2\res\values\values.xml" qualifiers=""><attr format="reference" name="lottieAnimationViewStyle"/><item name="lottie_layer_name" type="id"/><declare-styleable name="LottieAnimationView">
-        <attr format="string" name="lottie_fileName"/>
-        <attr format="reference" name="lottie_rawRes"/>
-        <attr format="string" name="lottie_url"/>
-        <attr format="reference" name="lottie_fallbackRes"/>
-        <attr format="boolean" name="lottie_autoPlay"/>
-        <attr format="boolean" name="lottie_loop"/>
-        <attr format="enum" name="lottie_repeatMode">
-            <enum name="restart" value="1"/>
-            <enum name="reverse" value="2"/>
-        </attr>
-        <attr format="integer" name="lottie_repeatCount"/>
-        <attr format="string" name="lottie_imageAssetsFolder"/>
-        <attr format="float" name="lottie_progress"/>
-        <attr format="boolean" name="lottie_enableMergePathsForKitKatAndAbove"/>
-        <attr format="color" name="lottie_colorFilter"/>
-        <attr format="float" name="lottie_speed"/>
-        <attr format="boolean" name="lottie_cacheComposition"/>
-        <attr format="boolean" name="lottie_ignoreDisabledSystemAnimations"/>
-        <attr format="boolean" name="lottie_clipToCompositionBounds"/>
-        
-        <attr format="enum" name="lottie_renderMode">
-            <enum name="automatic" value="0"/>
-            <enum name="hardware" value="1"/>
-            <enum name="software" value="2"/>
-        </attr>
     </declare-styleable></file></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="com.appsflyer:adrevenue:6.4.3$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\Admin\.gradle\caches\transforms-3\41a5828714606c020bdb05d15daaf043\transformed\jetified-adrevenue-6.4.3\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="com.appsflyer:adrevenue:6.4.3" from-dependency="true" generated-set="com.appsflyer:adrevenue:6.4.3$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\Admin\.gradle\caches\transforms-3\41a5828714606c020bdb05d15daaf043\transformed\jetified-adrevenue-6.4.3\res"><file path="C:\Users\Admin\.gradle\caches\transforms-3\41a5828714606c020bdb05d15daaf043\transformed\jetified-adrevenue-6.4.3\res\values\values.xml" qualifiers=""><string name="app_name">AppsFlyerAdRevenue</string></file></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.constraintlayout:constraintlayout:2.1.4$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\Admin\.gradle\caches\transforms-3\1fc386f1c8b6157844341487696eb8f6\transformed\constraintlayout-2.1.4\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.constraintlayout:constraintlayout:2.1.4" from-dependency="true" generated-set="androidx.constraintlayout:constraintlayout:2.1.4$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\Admin\.gradle\caches\transforms-3\1fc386f1c8b6157844341487696eb8f6\transformed\constraintlayout-2.1.4\res"><file path="C:\Users\Admin\.gradle\caches\transforms-3\1fc386f1c8b6157844341487696eb8f6\transformed\constraintlayout-2.1.4\res\values\values.xml" qualifiers=""><attr format="enum" name="animateCircleAngleTo">
         <enum name="bestChoice" value="0"/>
         <enum name="closest" value="1"/>
@@ -14875,32 +14849,6 @@
   </declare-styleable><declare-styleable name="DrawerLayout">
         
         <attr name="elevation"/>
-    </declare-styleable><declare-styleable name="LottieAnimationView">
-        <attr format="string" name="lottie_fileName"/>
-        <attr format="reference" name="lottie_rawRes"/>
-        <attr format="string" name="lottie_url"/>
-        <attr format="reference" name="lottie_fallbackRes"/>
-        <attr format="boolean" name="lottie_autoPlay"/>
-        <attr format="boolean" name="lottie_loop"/>
-        <attr format="enum" name="lottie_repeatMode">
-            <enum name="restart" value="1"/>
-            <enum name="reverse" value="2"/>
-        </attr>
-        <attr format="integer" name="lottie_repeatCount"/>
-        <attr format="string" name="lottie_imageAssetsFolder"/>
-        <attr format="float" name="lottie_progress"/>
-        <attr format="boolean" name="lottie_enableMergePathsForKitKatAndAbove"/>
-        <attr format="color" name="lottie_colorFilter"/>
-        <attr format="float" name="lottie_speed"/>
-        <attr format="boolean" name="lottie_cacheComposition"/>
-        <attr format="boolean" name="lottie_ignoreDisabledSystemAnimations"/>
-        <attr format="boolean" name="lottie_clipToCompositionBounds"/>
-        
-        <attr format="enum" name="lottie_renderMode">
-            <enum name="automatic" value="0"/>
-            <enum name="hardware" value="1"/>
-            <enum name="software" value="2"/>
-        </attr>
     </declare-styleable><declare-styleable name="LinearProgressIndicator">
     
     <attr name="indeterminateAnimationType">

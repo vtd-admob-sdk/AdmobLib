@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.amazicadslibrary.app-mergeDebugResources-52:/values-sw420dp-v13/values-sw420dp-v13.xml",
+            "outputFile": "com.amazicadslibrary.app-mergeDebugResources-51:/values-sw420dp-v13/values-sw420dp-v13.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-3\\e749221fba6fc26613f704e4bdf10031\\transformed\\jetified-sdp-android-1.0.6\\res\\values-sw420dp-v13\\values-sw420dp-v13.xml",

@@ -9,7 +9,6 @@ MERGED from [:sdk] D:\android\revise\lib\AdmobLib\sdk\build\intermediates\merged
 MERGED from [com.google.android.material:material:1.6.1] C:\Users\Admin\.gradle\caches\transforms-3\f24fcc909dfa728b375ad808c2b5ccf4\transformed\material-1.6.1\AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Admin\.gradle\caches\transforms-3\1fc386f1c8b6157844341487696eb8f6\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
 MERGED from [com.appsflyer:adrevenue:6.4.3] C:\Users\Admin\.gradle\caches\transforms-3\41a5828714606c020bdb05d15daaf043\transformed\jetified-adrevenue-6.4.3\AndroidManifest.xml:2:1-9:12
-MERGED from [com.airbnb.android:lottie:5.0.2] C:\Users\Admin\.gradle\caches\transforms-3\e2d92af924a790f3efc90ffd637f1607\transformed\jetified-lottie-5.0.2\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\Admin\.gradle\caches\transforms-3\521e4f6c2fd78f2dfd16209d0af759ea\transformed\jetified-appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
 MERGED from [com.facebook.android:facebook-android-sdk:16.0.1] C:\Users\Admin\.gradle\caches\transforms-3\e36f933a8c50b1d725609e6df0d00693\transformed\jetified-facebook-android-sdk-16.0.1\AndroidManifest.xml:9:1-19:12
 MERGED from [com.facebook.android:facebook-login:16.0.1] C:\Users\Admin\.gradle\caches\transforms-3\037392e9d1d882546a8e24e6860a5a4b\transformed\jetified-facebook-login-16.0.1\AndroidManifest.xml:9:1-19:12
@@ -165,8 +164,6 @@ MERGED from [com.google.android.material:material:1.6.1] C:\Users\Admin\.gradle\
 MERGED from [com.google.android.material:material:1.6.1] C:\Users\Admin\.gradle\caches\transforms-3\f24fcc909dfa728b375ad808c2b5ccf4\transformed\material-1.6.1\AndroidManifest.xml:24:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Admin\.gradle\caches\transforms-3\1fc386f1c8b6157844341487696eb8f6\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Admin\.gradle\caches\transforms-3\1fc386f1c8b6157844341487696eb8f6\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
-MERGED from [com.airbnb.android:lottie:5.0.2] C:\Users\Admin\.gradle\caches\transforms-3\e2d92af924a790f3efc90ffd637f1607\transformed\jetified-lottie-5.0.2\AndroidManifest.xml:9:5-20
-MERGED from [com.airbnb.android:lottie:5.0.2] C:\Users\Admin\.gradle\caches\transforms-3\e2d92af924a790f3efc90ffd637f1607\transformed\jetified-lottie-5.0.2\AndroidManifest.xml:9:5-20
 MERGED from [com.facebook.android:facebook-android-sdk:16.0.1] C:\Users\Admin\.gradle\caches\transforms-3\e36f933a8c50b1d725609e6df0d00693\transformed\jetified-facebook-android-sdk-16.0.1\AndroidManifest.xml:16:5-17:19
 MERGED from [com.facebook.android:facebook-android-sdk:16.0.1] C:\Users\Admin\.gradle\caches\transforms-3\e36f933a8c50b1d725609e6df0d00693\transformed\jetified-facebook-android-sdk-16.0.1\AndroidManifest.xml:16:5-17:19
 MERGED from [com.facebook.android:facebook-login:16.0.1] C:\Users\Admin\.gradle\caches\transforms-3\037392e9d1d882546a8e24e6860a5a4b\transformed\jetified-facebook-login-16.0.1\AndroidManifest.xml:16:5-17:19
@@ -353,8 +350,6 @@ MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Admin\.g
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Admin\.gradle\caches\transforms-3\1fc386f1c8b6157844341487696eb8f6\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
 MERGED from [com.appsflyer:adrevenue:6.4.3] C:\Users\Admin\.gradle\caches\transforms-3\41a5828714606c020bdb05d15daaf043\transformed\jetified-adrevenue-6.4.3\AndroidManifest.xml:5:5-7:41
 MERGED from [com.appsflyer:adrevenue:6.4.3] C:\Users\Admin\.gradle\caches\transforms-3\41a5828714606c020bdb05d15daaf043\transformed\jetified-adrevenue-6.4.3\AndroidManifest.xml:5:5-7:41
-MERGED from [com.airbnb.android:lottie:5.0.2] C:\Users\Admin\.gradle\caches\transforms-3\e2d92af924a790f3efc90ffd637f1607\transformed\jetified-lottie-5.0.2\AndroidManifest.xml:5:5-7:41
-MERGED from [com.airbnb.android:lottie:5.0.2] C:\Users\Admin\.gradle\caches\transforms-3\e2d92af924a790f3efc90ffd637f1607\transformed\jetified-lottie-5.0.2\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\Admin\.gradle\caches\transforms-3\521e4f6c2fd78f2dfd16209d0af759ea\transformed\jetified-appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\Admin\.gradle\caches\transforms-3\521e4f6c2fd78f2dfd16209d0af759ea\transformed\jetified-appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
 MERGED from [com.facebook.android:facebook-android-sdk:16.0.1] C:\Users\Admin\.gradle\caches\transforms-3\e36f933a8c50b1d725609e6df0d00693\transformed\jetified-facebook-android-sdk-16.0.1\AndroidManifest.xml:12:5-14:41

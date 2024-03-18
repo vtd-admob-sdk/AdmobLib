@@ -14,6 +14,6 @@ public class ResumeLoadingDialog extends Dialog {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.dialog_resume_loading);
+        setContentView(R.layout.dialog_loading_ads);
     }
 }

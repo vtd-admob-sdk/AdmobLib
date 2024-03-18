@@ -93,7 +93,6 @@ int layout ads_shimmer_small_btn_ads_bottom 0x0
 int layout ads_shimmer_small_btn_ads_top 0x0
 int layout dialog_loading_ads 0x0
 int layout dialog_prepair_loading_ads 0x0
-int layout dialog_resume_loading 0x0
 int layout layout_banner 0x0
 int layout layout_native 0x0
 int layout layout_native_control 0x0

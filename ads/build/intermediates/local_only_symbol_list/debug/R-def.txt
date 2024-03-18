@@ -95,7 +95,6 @@ layout ads_shimmer_small_btn_ads_bottom
 layout ads_shimmer_small_btn_ads_top
 layout dialog_loading_ads
 layout dialog_prepair_loading_ads
-layout dialog_resume_loading
 layout layout_banner
 layout layout_native
 layout layout_native_control
