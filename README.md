@@ -14,6 +14,9 @@
 <pre>
  dependencies {
     implementation ("com.github.vtd-admob-sdk:AdmobLib:1.0.0")
+    implementation ("com.google.android.gms:play-services-ads:23.0.0")
+    //multidex
+    implementation ("androidx.multidex:multidex:2.0.1")
   }
 
 defaultConfig {
