@@ -13,11 +13,7 @@
 <h3>Implement library in your app level build.gradle:</h3>
 <pre>
  dependencies {
-    implementation 'com.github.vtd-admob-sdk:AdmobLib:0.0.1'
-    implementation 'com.google.android.gms:play-services-ads:22.1.0'
-    implementation 'com.facebook.shimmer:shimmer:0.5.0'
-    //multidex
-    implementation "androidx.multidex:multidex:2.0.1"
+    implementation ("com.github.vtd-admob-sdk:AdmobLib:1.0.0")
   }
 
 defaultConfig {
